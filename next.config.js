@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    output: 'export',
+    env: {
+        email: 'alefe@devot.com.br',
+    },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
