@@ -138,7 +138,7 @@ const Dog = (): ReactElement => {
         },
     };
 
-    const translate: { [key in keyof typeof actionMap]: string } = {
+    const translate = {
         FLIP: 'Girar',
         PAINT: 'Pintar',
         RESET: 'Inicio',
