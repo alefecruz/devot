@@ -1,13 +1,13 @@
 import { css } from 'styled-components';
 
-import { type FontFormat } from './interfaces';
+import { type IFontTheme } from '../interfaces';
 
-export const FONTS: FontFormat = {
+export const FONTS: IFontTheme = {
     THIN: css`
         font-weight: 100;
         font-family: 'Montserrat';
     `,
-    LIGHT: css`
+    BASE: css`
         font-weight: 300;
         font-family: 'Montserrat';
     `,

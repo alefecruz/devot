@@ -1,4 +1,5 @@
 import { CSSProp } from 'styled-components';
+
 import * as themeMapper from './mappers';
 export interface IColorTheme {
     ACCENTED: CSSProp;
@@ -6,13 +7,12 @@ export interface IColorTheme {
     SECONDARY: CSSProp;
     DISABLED: CSSProp;
     DANGER: CSSProp;
-    LIGHT: CSSProp;
-    DARK: CSSProp;
+    BASE: CSSProp;
 }
 
 export interface IFontTheme {
     THIN: CSSProp;
-    LIGHT: CSSProp;
+    BASE: CSSProp;
     REGULAR: CSSProp;
     MEDIUM: CSSProp;
     SEMI_BOLD: CSSProp;
@@ -23,6 +23,7 @@ export interface IMediaTheme {
     LTE_SMALL: CSSProp;
     LTE_MEDIUM: CSSProp;
     LTE_LARGE: CSSProp;
+    LTE_XLARGE: CSSProp;
 }
 
 export interface ISizeTheme {
@@ -34,9 +35,11 @@ export interface ISizeTheme {
     XXLARGE: CSSProp;
     HUGE: CSSProp;
     XHUGE: CSSProp;
+    XXHUGE: CSSProp;
 }
 
 export interface ISpacingTheme {
+    XXSMALL: CSSProp;
     XSMALL: CSSProp;
     SMALL: CSSProp;
     MEDIUM: CSSProp;

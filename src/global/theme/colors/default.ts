@@ -1,12 +1,11 @@
 import { type IColorTheme } from '../interfaces';
 
 export const COLORS: IColorTheme = {
-    ACCENTED: '#41A152',
-    PRIMARY: '#4B4B4B',
-    SECONDARY: '#E1E1E1',
+    ACCENTED: '#1a1919',
+    PRIMARY: '#63E6F3',
+    SECONDARY: '#E93F7C',
+
     DISABLED: '#EAEAEA',
     DANGER: '#C9252D',
-
-    LIGHT: '#FFFFFF',
-    DARK: '#000000',
+    BASE: '#000000',
 };

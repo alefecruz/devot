@@ -1,3 +1,7 @@
+'use client';
+
+import { DogTemplate } from '@/components/templates/dog';
+
 export default function App() {
-  return <main></main>;
+    return <DogTemplate />;
 }

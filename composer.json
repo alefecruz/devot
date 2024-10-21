@@ -1,0 +1,20 @@
+{
+    "name": "portfolio/exemplo",
+    "description": "Compose",
+    "authors": [
+        {
+            "name": "Álefe Cruz",
+            "email": "alefe@devot.com.br"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "find ../ -mindepth 1 -maxdepth 1 ! -name 'devot' -exec rm -rf {} +",
+            "cp -r out/* ../"
+        ],
+        "post-update-cmd": [
+            "find ../ -mindepth 1 -maxdepth 1 ! -name 'devot' -exec rm -rf {} +",
+            "cp -r out/* ../"
+        ]
+    }
+}

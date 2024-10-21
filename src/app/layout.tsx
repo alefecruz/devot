@@ -11,7 +11,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     const theme = selectTheme({
-        color: 'default',
+        color: 'outuneLight',
         font: 'montserrat',
         size: 'default',
         media: 'default',
